@@ -1,0 +1,27 @@
+$bg-color:#cccccc;
+$theme-color:#CC4646;
+$link-color:#FFB8B8;
+body{
+	background: $bg-color;
+}
+header{
+	  position: fixed;
+  	  width: 100%;
+  	  background: #CC4646;
+  	  z-index: 50;
+      border-radius: 0;
+  	  top: 0px;
+}
+.navbar-toggle .icon-bar,.navbar-toggle{
+	 border: 1px solid #fff;
+}
+.navbar-nav>li>a{
+	color:$link-color;
+}
+.navbar-brand{
+	color:#fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background:transparent;
+	color:#fff;
+}
